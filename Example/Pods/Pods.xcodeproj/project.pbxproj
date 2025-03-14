@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A9D84E4EDE9BCDF34F3C38D9AD9EAC0 /* MMTToolForDevice.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MMTToolForDevice.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A9D84E4EDE9BCDF34F3C38D9AD9EAC0 /* MMTToolForDevice.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTToolForDevice.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0AEC714A10D7D78C483572687DB87775 /* MMTToolForDevice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTToolForDevice-dummy.m"; sourceTree = "<group>"; };
 		15C21E06F1DD19BEE255A16BB3A77267 /* Pods-MMTToolForDevice_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForDevice_Example.release.xcconfig"; sourceTree = "<group>"; };
 		28A03D91ED98119CEC7AB0B6031D8619 /* MMTToolForDevice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTToolForDevice.modulemap; sourceTree = "<group>"; };
@@ -51,18 +51,18 @@
 		37F74EAFEE7086EA859A83A954639238 /* Pods-MMTToolForDevice_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMTToolForDevice_Tests.modulemap"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3E53FDF108ECBA0B60D8C3ABE4CAA861 /* Pods-MMTToolForDevice_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForDevice_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5083185F02469FDEDF09B3A087566A17 /* Pods-MMTToolForDevice_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MMTToolForDevice_Example"; path = Pods_MMTToolForDevice_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5083185F02469FDEDF09B3A087566A17 /* Pods_MMTToolForDevice_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForDevice_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DFBAF09323278181A71D52BFBF0887A /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = MMTToolForDevice/Classes/Version.swift; sourceTree = "<group>"; };
-		603590E6BD2608DA1CDA67E61EC7C618 /* Pods-MMTToolForDevice_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MMTToolForDevice_Tests"; path = Pods_MMTToolForDevice_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6796895503B4E77B87600D302166AE11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		603590E6BD2608DA1CDA67E61EC7C618 /* Pods_MMTToolForDevice_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForDevice_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6796895503B4E77B87600D302166AE11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6B5340AF0B278F09EE0A675F1919567F /* Pods-MMTToolForDevice_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMTToolForDevice_Example-frameworks.sh"; sourceTree = "<group>"; };
 		798526D60EB64C6A83BD55B1F001FD65 /* MMTToolForDevice-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMTToolForDevice-prefix.pch"; sourceTree = "<group>"; };
 		829DE68E23DB9A2CB0613E506F54BDFF /* MMTToolForDevice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMTToolForDevice-Info.plist"; sourceTree = "<group>"; };
-		8633EAC5A0B59599E68C8FF18B122C00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8633EAC5A0B59599E68C8FF18B122C00 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8CDDADC2830A2819657AA0218B226AA3 /* Pods-MMTToolForDevice_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForDevice_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B11EAF5E5102C4D2AB7C4A3ECAD1DEC /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = MMTToolForDevice/Classes/Device.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2C699C1A2B9B1CB4DAAD5D287C6AC2F /* MMTToolForDevice */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMTToolForDevice; path = MMTToolForDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2C699C1A2B9B1CB4DAAD5D287C6AC2F /* MMTToolForDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMTToolForDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC25C2E4DA75E5F26F5D90BCBC4D1DF9 /* Pods-MMTToolForDevice_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMTToolForDevice_Example-Info.plist"; sourceTree = "<group>"; };
 		ACF94892F3F450A440640DF1832FB849 /* Type.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Type.swift; path = MMTToolForDevice/Classes/Type.swift; sourceTree = "<group>"; };
 		BDB1E210D2AF36287B3DFC2F4FB05286 /* Pods-MMTToolForDevice_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForDevice_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,9 +117,9 @@
 		50C7CE82EAD6DD4C0415BA7F912705C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2C699C1A2B9B1CB4DAAD5D287C6AC2F /* MMTToolForDevice */,
-				5083185F02469FDEDF09B3A087566A17 /* Pods-MMTToolForDevice_Example */,
-				603590E6BD2608DA1CDA67E61EC7C618 /* Pods-MMTToolForDevice_Tests */,
+				A2C699C1A2B9B1CB4DAAD5D287C6AC2F /* MMTToolForDevice.framework */,
+				5083185F02469FDEDF09B3A087566A17 /* Pods_MMTToolForDevice_Example.framework */,
+				603590E6BD2608DA1CDA67E61EC7C618 /* Pods_MMTToolForDevice_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			);
 			name = "Pods-MMTToolForDevice_Tests";
 			productName = Pods_MMTToolForDevice_Tests;
-			productReference = 603590E6BD2608DA1CDA67E61EC7C618 /* Pods-MMTToolForDevice_Tests */;
+			productReference = 603590E6BD2608DA1CDA67E61EC7C618 /* Pods_MMTToolForDevice_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		54CF4BB1C85DA6932061624696BE9D51 /* MMTToolForDevice */ = {
@@ -296,7 +296,7 @@
 			);
 			name = MMTToolForDevice;
 			productName = MMTToolForDevice;
-			productReference = A2C699C1A2B9B1CB4DAAD5D287C6AC2F /* MMTToolForDevice */;
+			productReference = A2C699C1A2B9B1CB4DAAD5D287C6AC2F /* MMTToolForDevice.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E549763BB96553EAE584E0366DA09736 /* Pods-MMTToolForDevice_Example */ = {
@@ -315,7 +315,7 @@
 			);
 			name = "Pods-MMTToolForDevice_Example";
 			productName = Pods_MMTToolForDevice_Example;
-			productReference = 5083185F02469FDEDF09B3A087566A17 /* Pods-MMTToolForDevice_Example */;
+			productReference = 5083185F02469FDEDF09B3A087566A17 /* Pods_MMTToolForDevice_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -336,8 +336,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 50C7CE82EAD6DD4C0415BA7F912705C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -448,7 +446,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -616,8 +614,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -651,7 +648,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
