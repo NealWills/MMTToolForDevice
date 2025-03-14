@@ -1,5 +1,5 @@
 PODS:
-  - MMTToolForDevice (0.1.0)
+  - MMTToolForDevice (0.9.0)
 
 DEPENDENCIES:
   - MMTToolForDevice (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MMTToolForDevice: c52617e3e01ef19d4cb2693e60f60fce4be7dd67
+  MMTToolForDevice: 5f151620971566c5b8fcdb740c72baf5dd676d29
 
 PODFILE CHECKSUM: 3a2c9bb3385dc14c256985aad3f24ade0eea7b3c
 

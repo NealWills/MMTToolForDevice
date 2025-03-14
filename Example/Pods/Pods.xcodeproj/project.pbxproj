@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A9D84E4EDE9BCDF34F3C38D9AD9EAC0 /* MMTToolForDevice.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTToolForDevice.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0A9D84E4EDE9BCDF34F3C38D9AD9EAC0 /* MMTToolForDevice.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MMTToolForDevice.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		0AEC714A10D7D78C483572687DB87775 /* MMTToolForDevice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMTToolForDevice-dummy.m"; sourceTree = "<group>"; };
 		15C21E06F1DD19BEE255A16BB3A77267 /* Pods-MMTToolForDevice_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMTToolForDevice_Example.release.xcconfig"; sourceTree = "<group>"; };
 		28A03D91ED98119CEC7AB0B6031D8619 /* MMTToolForDevice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMTToolForDevice.modulemap; sourceTree = "<group>"; };
@@ -328,7 +328,6 @@
 				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -336,6 +335,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 50C7CE82EAD6DD4C0415BA7F912705C4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -418,9 +418,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E87A9700378E2F310C34DC5D677A3F2 /* Debug */ = {
+		4EA07E9F5111D6DA223EC3AA8A421E60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB459022AB2A2FF9E93E37FD5AF1751F /* MMTToolForDevice.debug.xcconfig */;
+			baseConfigurationReference = 2D4565AA3FB8EFFE64540E56F5E866D9 /* MMTToolForDevice.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -437,8 +437,12 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/MMTToolForDevice/MMTToolForDevice-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/MMTToolForDevice/MMTToolForDevice.modulemap";
 				PRODUCT_MODULE_NAME = MMTToolForDevice;
 				PRODUCT_NAME = MMTToolForDevice;
@@ -448,10 +452,11 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		6ABD15F96498D31998B093F55D5922A0 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -472,7 +477,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MMTToolForDevice_Tests/Pods-MMTToolForDevice_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MMTToolForDevice_Tests/Pods-MMTToolForDevice_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -508,7 +517,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MMTToolForDevice_Tests/Pods-MMTToolForDevice_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MMTToolForDevice_Tests/Pods-MMTToolForDevice_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -543,7 +556,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MMTToolForDevice_Example/Pods-MMTToolForDevice_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MMTToolForDevice_Example/Pods-MMTToolForDevice_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -614,15 +631,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		BC2092F93DD710FB9635E7A35BE7384C /* Release */ = {
+		A1516C0D4D85C91E04D329C1AB11F9CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D4565AA3FB8EFFE64540E56F5E866D9 /* MMTToolForDevice.release.xcconfig */;
+			baseConfigurationReference = FB459022AB2A2FF9E93E37FD5AF1751F /* MMTToolForDevice.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -639,8 +657,12 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/MMTToolForDevice/MMTToolForDevice-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/MMTToolForDevice/MMTToolForDevice.modulemap";
 				PRODUCT_MODULE_NAME = MMTToolForDevice;
 				PRODUCT_NAME = MMTToolForDevice;
@@ -650,11 +672,10 @@
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C8676C623CE7862954A9696D4897B9FE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -675,7 +696,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MMTToolForDevice_Example/Pods-MMTToolForDevice_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MMTToolForDevice_Example/Pods-MMTToolForDevice_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -782,8 +807,8 @@
 		771E1B5B50A8DECFD9A4AC0929401C8F /* Build configuration list for PBXNativeTarget "MMTToolForDevice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E87A9700378E2F310C34DC5D677A3F2 /* Debug */,
-				BC2092F93DD710FB9635E7A35BE7384C /* Release */,
+				A1516C0D4D85C91E04D329C1AB11F9CC /* Debug */,
+				4EA07E9F5111D6DA223EC3AA8A421E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

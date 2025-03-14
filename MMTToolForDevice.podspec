@@ -32,6 +32,8 @@ MMT Tool For Device version record, help to check the version of the device and 
 
   s.source_files = 'MMTToolForDevice/Classes/**/*'
   
+  s.swift_version = '5.0'
+  
   # s.resource_bundles = {
   #   'MMTToolForDevice' => ['MMTToolForDevice/Assets/*.png']
   # }
