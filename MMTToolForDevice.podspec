@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 MMT Tool For Device version record, help to check the version of the device and the app.
                        DESC
 
-  s.homepage         = 'https://github.com/Donghn/MMTToolForDevice'
+  s.homepage         = 'https://github.com/NealWills/MMTToolForDevice.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Donghn' => 'Donghn@maxeye.com' }
-  s.source           = { :git => 'https://github.com/Donghn/MMTToolForDevice.git', :tag => s.version.to_s }
+  s.author           = { 'NealWills' => 'nealwills93@gmail.com' }
+  s.source           = { :git => 'https://github.com/NealWills/MMTToolForDevice.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
