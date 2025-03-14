@@ -6,6 +6,8 @@
 //  Copyright © 2015 Ekhoo. All rights reserved.
 //
 
+// https://github.com/pluwen/apple-device-model-list
+
 #if os(iOS)
 import UIKit
 
