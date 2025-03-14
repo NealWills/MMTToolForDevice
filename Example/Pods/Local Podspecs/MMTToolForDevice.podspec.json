@@ -1,0 +1,22 @@
+{
+  "name": "MMTToolForDevice",
+  "version": "0.1.0",
+  "summary": "A short description of MMTToolForDevice.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Donghn/MMTToolForDevice",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Donghn": "Donghn@maxeye.com"
+  },
+  "source": {
+    "git": "https://github.com/Donghn/MMTToolForDevice.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MMTToolForDevice/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module MMTToolForDevice {
+  umbrella header "MMTToolForDevice-umbrella.h"
+
+  export *
+  module * { export * }
+}

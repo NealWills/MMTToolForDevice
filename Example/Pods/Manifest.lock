@@ -1,0 +1,16 @@
+PODS:
+  - MMTToolForDevice (0.1.0)
+
+DEPENDENCIES:
+  - MMTToolForDevice (from `../`)
+
+EXTERNAL SOURCES:
+  MMTToolForDevice:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMTToolForDevice: c52617e3e01ef19d4cb2693e60f60fce4be7dd67
+
+PODFILE CHECKSUM: 3a2c9bb3385dc14c256985aad3f24ade0eea7b3c
+
+COCOAPODS: 1.16.2
