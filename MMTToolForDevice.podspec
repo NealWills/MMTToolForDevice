@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMTToolForDevice'
-  s.version          = '0.9.1'
+  s.version          = '0.9.2'
   s.summary          = 'MMT Tool For Device version record'
 
 # This description is used to generate tags and improve search results.
