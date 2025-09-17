@@ -154,6 +154,10 @@ open class Device {
         }
     }
 
+    static public func getDeviceCode() -> String {
+        return Device.getVersionCode()
+    }
+
     static public func version() -> Version {
         return getVersion(code: getVersionCode())
     }
